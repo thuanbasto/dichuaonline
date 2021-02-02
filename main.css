@@ -1,0 +1,79 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+.background {
+    width: 60%;
+}
+.title {
+    background-color: brown;
+    width: 100%;
+}
+button {
+    height: 50px;
+    width: 100px;   
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+button:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+button:focus {
+    outline: none; 
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+.caunoi {
+    width: auto;
+    margin: 30px auto;
+}
+.cungduong{
+    justify-content: center;
+}
+.taikhoan{
+    width: 100%;
+    /* margin: 0px 400px 0px 400px; */
+    background-color: purple;
+}
+.tieudecungduong {
+    color: seagreen;
+}
+.banner {
+    margin: 0;
+    background-color: seagreen;
+}
+.bannerH1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.gifThaphuong{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    bottom: 100px;
+    left: 100px;
+}
+.gifLay{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    bottom: 100px;
+    right: 100px;
+}
+
+.notShow{
+    display: none;
+}
+.layvathaphuong {
+    display: flex;
+    justify-content: center;
+}
