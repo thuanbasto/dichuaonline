@@ -4,6 +4,7 @@ const btnlay = document.getElementsByClassName("btnlay")
 const gifThaphuong = document.getElementsByClassName("gifThaphuong");
 const gifLay = document.getElementsByClassName("gifLay");
 document.getElementsByTagName("audio")[0].play();
+document.getElementsByTagName("audio")[0].load();
 
 function showGif() {
     // console.log(event.target === btnlay[0]);
